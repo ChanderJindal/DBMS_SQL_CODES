@@ -1,0 +1,6 @@
+insert into CLIENT_MASTER values('C00001','Ivan',",",",",'Mumbai',400054,'Maharashtra',15000);
+insert into CLIENT_MASTER values('C00002','Aman',",",",",'Bhopal',345854,'M.P.',0);
+insert into CLIENT_MASTER values('C00004','Bhishm',",",",",'Udi',44537,'Tamil_Nadu',0);
+insert into CLIENT_MASTER values('C00005','Rahul',",",",",'Ashok_Vihar',436865,'Delhi',2000);
+insert into CLIENT_MASTER values('C00006','Devi_Lal_Singh',",",",",'Ali_Nagar',560050,'Hariyana',0);
+insert into CLIENT_MASTER values('C00003','Bhanu',",",",",'Tavi',405674,'Kerala',5000);
