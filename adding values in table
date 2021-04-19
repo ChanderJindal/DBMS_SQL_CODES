@@ -1,6 +1,44 @@
+// Client Master Insertions
 insert into CLIENT_MASTER values('C00001','Ivan',",",",",'Mumbai',400054,'Maharashtra',15000);
 insert into CLIENT_MASTER values('C00002','Aman',",",",",'Bhopal',345854,'M.P.',0);
 insert into CLIENT_MASTER values('C00004','Bhishm',",",",",'Udi',44537,'Tamil_Nadu',0);
 insert into CLIENT_MASTER values('C00005','Rahul',",",",",'Ashok_Vihar',436865,'Delhi',2000);
 insert into CLIENT_MASTER values('C00006','Devi_Lal_Singh',",",",",'Ali_Nagar',560050,'Hariyana',0);
 insert into CLIENT_MASTER values('C00003','Bhanu',",",",",'Tavi',405674,'Kerala',5000);
+ 
+ // Product Master insertions
+ insert into product_master values('P00001','Hair Gel', NULL,"350ml",150,100,1000,800);
+insert into product_master values('P00002','Juice Box', NULL,"330ml",350,500,15,13.5);
+insert into product_master values('P00003','Hair Oil', NULL,"500ml",50,75,250,235);
+insert into product_master values('P00004','Cooking Oil', NULL,"1L",75,30,2500,2450);
+insert into product_master values('P00005','Lip Balm', NULL,"30ml",50,25,60,50);
+insert into product_master values('P00006','Toilet Cleaners', NULL,"1.5L",25,30,1250,1155.5);
+
+// product master as per  the text 
+
+insert into product_master values('P00001','t_shirt',5,"Piece",200,50,350,250);
+insert into product_master values('P0345','shirt',6,"Piece",150,50,500,350);
+insert into product_master values('P06734','cotton jeans',5,"Piece",100,20,600,450);
+insert into product_master values('P07834','jeans',5,"Piece",100,20,750,500);
+insert into product_master values('P07865','trousers',2,"Piece",150,50,850,550);
+insert into product_master values('P07885','pull overs',2.5,"Piece",80,30,700,450);
+insert into product_master values('P07965','Denim shirts',4,"Piece",200,40,350,250);
+insert into product_master values('P07975','lyera tops',5,"Piece",70,30,300,175);
+insert into product_master values('P08865','skirts',5,"Piece",75,30,450,300);
+
+
+// sales master insertions, thanks to client master
+
+insert into sales_master values('S00001','Ivan',"C-22","Lane-23",'Mumbai',400054,'Maharashtra',175000);
+insert into sales_master values('S00002','Aman',"V-89","Lane-35",'Bhopal',345854,'M.P.',46260);
+insert into sales_master values('S00003','Bhanu',"F-25","Lane-36",'Tavi',405674,'Kerala',525000);
+insert into sales_master values('S00004','Bhishm',"V-28","Lane-29",'Udi',44537,'Tamil_Nadu',136520);
+insert into sales_master values('S00005','Rahul',"D-24","Lane-28",'Ashok_Vihar',436865,'Delhi',462000);
+insert into sales_master values('S00006','Devi_Lal_Singh',"A-35","Lane-64",'Ali_Nagar',560050,'Hariyana',426730);
+
+//sales mater as it's in the notes  PS- new one with 3 new useless columns
+
+insert into sales_master values('S00001','Aman',"A/22","Worli",'Mumbai',400002,'Maharashtra',3000,100,50,'Good');
+insert into sales_master values('S00002','Omkar',"65","Nariman",'Mumbai',400001,'Maharashtra',3000,200,50,'Good');
+insert into sales_master values('S00003','Raj',"P-7","Bandra",'Mumbai',400032,'Maharashtra',3000,200,50,'Good');
+insert into sales_master values('S00004','Ashish',"A/5","Juhu",'Mumbai',400044,'Maharashtra',3500,200,150,'Good');
