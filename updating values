@@ -1,6 +1,8 @@
 
 mysql -u root -p
 
+// Client Master
+
 UPDATE client_master
 SET address1= 'A-9', address2= 'Lane-77'
 WHERE client_no = 'C00001';
@@ -24,3 +26,8 @@ WHERE client_no = 'C00005';
 UPDATE client_master
 SET address1= 'H-92', address2= 'Lane-48'
 WHERE client_no = 'C00006';
+
+//Product Master -> Profit % update
+
+update product_master
+set profit_percentage = 100*(sell_price -cost_price)/ cost_price ;
