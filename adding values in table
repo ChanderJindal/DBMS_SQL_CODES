@@ -1,6 +1,15 @@
+// Client Master Insertions
 insert into CLIENT_MASTER values('C00001','Ivan',",",",",'Mumbai',400054,'Maharashtra',15000);
 insert into CLIENT_MASTER values('C00002','Aman',",",",",'Bhopal',345854,'M.P.',0);
 insert into CLIENT_MASTER values('C00004','Bhishm',",",",",'Udi',44537,'Tamil_Nadu',0);
 insert into CLIENT_MASTER values('C00005','Rahul',",",",",'Ashok_Vihar',436865,'Delhi',2000);
 insert into CLIENT_MASTER values('C00006','Devi_Lal_Singh',",",",",'Ali_Nagar',560050,'Hariyana',0);
 insert into CLIENT_MASTER values('C00003','Bhanu',",",",",'Tavi',405674,'Kerala',5000);
+ 
+ // Product Master insertions
+ insert into product_master values('P00001','Hair Gel', NULL,"350ml",150,100,1000,800);
+insert into product_master values('P00002','Juice Box', NULL,"330ml",350,500,15,13.5);
+insert into product_master values('P00003','Hair Oil', NULL,"500ml",50,75,250,235);
+insert into product_master values('P00004','Cooking Oil', NULL,"1L",75,30,2500,2450);
+insert into product_master values('P00005','Lip Balm', NULL,"30ml",50,25,60,50);
+insert into product_master values('P00006','Toilet Cleaners', NULL,"1.5L",25,30,1250,1155.5);
