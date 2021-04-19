@@ -22,3 +22,10 @@ insert into sales_master values('S00003','Bhanu',"F-25","Lane-36",'Tavi',405674,
 insert into sales_master values('S00004','Bhishm',"V-28","Lane-29",'Udi',44537,'Tamil_Nadu',136520);
 insert into sales_master values('S00005','Rahul',"D-24","Lane-28",'Ashok_Vihar',436865,'Delhi',462000);
 insert into sales_master values('S00006','Devi_Lal_Singh',"A-35","Lane-64",'Ali_Nagar',560050,'Hariyana',426730);
+
+//sales mater as it's in the notes  PS- new one with 3 new useless columns
+
+insert into sales_master values('S00001','Aman',"A/22","Worli",'Mumbai',400002,'Maharashtra',3000,100,50,'Good');
+insert into sales_master values('S00002','Omkar',"65","Nariman",'Mumbai',400001,'Maharashtra',3000,200,50,'Good');
+insert into sales_master values('S00003','Raj',"P-7","Bandra",'Mumbai',400032,'Maharashtra',3000,200,50,'Good');
+insert into sales_master values('S00004','Ashish',"A/5","Juhu",'Mumbai',400044,'Maharashtra',3500,200,150,'Good');
