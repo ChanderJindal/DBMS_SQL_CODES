@@ -1,6 +1,8 @@
 
 mysql -u root -p
 
+// first 2 tables 
+
 // Client Master
 
 UPDATE client_master
