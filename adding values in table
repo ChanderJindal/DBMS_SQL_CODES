@@ -13,3 +13,12 @@ insert into product_master values('P00003','Hair Oil', NULL,"500ml",50,75,250,23
 insert into product_master values('P00004','Cooking Oil', NULL,"1L",75,30,2500,2450);
 insert into product_master values('P00005','Lip Balm', NULL,"30ml",50,25,60,50);
 insert into product_master values('P00006','Toilet Cleaners', NULL,"1.5L",25,30,1250,1155.5);
+
+// sales master insertions, thanks to client master
+
+insert into sales_master values('S00001','Ivan',"C-22","Lane-23",'Mumbai',400054,'Maharashtra',175000);
+insert into sales_master values('S00002','Aman',"V-89","Lane-35",'Bhopal',345854,'M.P.',46260);
+insert into sales_master values('S00003','Bhanu',"F-25","Lane-36",'Tavi',405674,'Kerala',525000);
+insert into sales_master values('S00004','Bhishm',"V-28","Lane-29",'Udi',44537,'Tamil_Nadu',136520);
+insert into sales_master values('S00005','Rahul',"D-24","Lane-28",'Ashok_Vihar',436865,'Delhi',462000);
+insert into sales_master values('S00006','Devi_Lal_Singh',"A-35","Lane-64",'Ali_Nagar',560050,'Hariyana',426730);
