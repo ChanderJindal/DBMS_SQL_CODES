@@ -14,6 +14,19 @@ insert into product_master values('P00004','Cooking Oil', NULL,"1L",75,30,2500,2
 insert into product_master values('P00005','Lip Balm', NULL,"30ml",50,25,60,50);
 insert into product_master values('P00006','Toilet Cleaners', NULL,"1.5L",25,30,1250,1155.5);
 
+// product master as per  the text 
+
+insert into product_master values('P00001','t_shirt',5,"Piece",200,50,350,250);
+insert into product_master values('P0345','shirt',6,"Piece",150,50,500,350);
+insert into product_master values('P06734','cotton jeans',5,"Piece",100,20,600,450);
+insert into product_master values('P07834','jeans',5,"Piece",100,20,750,500);
+insert into product_master values('P07865','trousers',2,"Piece",150,50,850,550);
+insert into product_master values('P07885','pull overs',2.5,"Piece",80,30,700,450);
+insert into product_master values('P07965','Denim shirts',4,"Piece",200,40,350,250);
+insert into product_master values('P07975','lyera tops',5,"Piece",70,30,300,175);
+insert into product_master values('P08865','skirts',5,"Piece",75,30,450,300);
+
+
 // sales master insertions, thanks to client master
 
 insert into sales_master values('S00001','Ivan',"C-22","Lane-23",'Mumbai',400054,'Maharashtra',175000);
