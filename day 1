@@ -1,0 +1,10 @@
+select name from client_master;
+select * from client_master;
+select name , city , state from client_master;
+select name from client_master where bal_due = 0;
+select name from client_master where city = 'Mumbai';
+select description from product_master;
+select salesman_name from sales_master where sale_ammount = 3000;
+select salesman_name from sales_master where city = 'Mumbai';
+select production from product_master where sell_price = 150;
+select production from product_master where description = 't_shirt'
