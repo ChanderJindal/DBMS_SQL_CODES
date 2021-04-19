@@ -36,6 +36,7 @@ pincode int,
 state varchar(20),
 sale_ammount float
 );
+
 // sales master with 3 useless new columns
  create table sales_master(
      saleman_no varchar(6),
