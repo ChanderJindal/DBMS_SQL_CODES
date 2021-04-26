@@ -23,7 +23,10 @@ DELETE from client_master
 where state = 'Tamil Nadu' Or 'Tamil_Nadu' ;
 
 ALTER TABLE client_master
-ADD Telephone int;
+ADD Telephone int(10);
+
+ALTER TABLE product_master
+MODIFY COLUMN sell_price float(10,2);
 
 //describe client_master;
 //select * from client_master;
