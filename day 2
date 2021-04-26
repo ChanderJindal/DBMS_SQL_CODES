@@ -1,0 +1,40 @@
+UPDATE client_master
+SET city = 'Bangalore'
+Where Client_no = 'C00005';
+
+UPDATE client_master
+SET bal_due = 1000
+Where Client_no = 'C00001';
+
+UPDATE product_master
+SET sell_price = 950
+Where description = 'trousers';
+
+UPDATE sales_master
+SET city = 'Pune';
+
+DELETE from sales_master
+where sale_ammount = 3500;
+
+DELETE from product_master
+where qty_on_hand = 100;
+
+DELETE from client_master
+where state = 'Tamil Nadu' Or 'Tamil_Nadu' ;
+
+ALTER TABLE client_master
+ADD Telephone int;
+
+//describe client_master;
+//select * from client_master;
+
+DROP TABLE IF EXISTS client_master;
+
+describe client_master;
+
+RENAME TABLE sales_master to SMAN_MASTER;
+
+
+
+
+
