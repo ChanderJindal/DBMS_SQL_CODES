@@ -23,9 +23,9 @@ insert into salesman_master values('S00004','Ashish',"A/5","Juhu",'Mumbai',40004
 
 
 // needs work
-insert into sales_order values('O19001','12-01-10','C001','S001','F','N','20-01-10','In Process');
-insert into sales_order values('O19002','25-01-10','C002','S002','P','N','27-01-10','Cancelled');
-insert into sales_order values('O46865','18-02-10','C003','S003','F','Y','20-02-10','Fulfilled');
-insert into sales_order values('O19003','03-04-10','C001','S001','F','Y','07-04-10','Fulfilled');
-insert into sales_order values('O46866','20-05-10','C004','S002','P','N','22-05-10','Cancelled');
-insert into sales_order values('O19008','24-05-10','C005','S004','F','N','26-05-10','In Process');
+insert into sales_order values('O19001','12-01-10','C00001','S00001','F','N','20-01-10','In Process');
+insert into sales_order values('O19002','25-01-10','C00002','S00002','P','N','27-01-10','Cancelled');
+insert into sales_order values('O46865','18-02-10','C00003','S00003','F','Y','20-02-10','Fulfilled');
+insert into sales_order values('O19003','03-04-10','C00001','S00001','F','Y','07-04-10','Fulfilled');
+insert into sales_order values('O46866','20-05-10','C00004','S00002','P','N','22-05-10','Cancelled');
+insert into sales_order values('O19008','24-05-10','C00005','S00004','F','N','26-05-10','In Process');
