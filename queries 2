@@ -1,0 +1,12 @@
+Queries
+1. Change the City of Client_No 'C00005' to 'Bangalore' 
+2.Change the Bal_Due of Client_No 'C00001' to Rs.1000 
+3.Change the Cost_Price of 'Trousers' to Rs.950 
+4.Change the City of the Salesman to 'Pune' 
+5.Delete all Salesman from the Salesman_Master whose salaries are equal to Rs. 3500 
+5.Delete all Products from Product_Master where the QtyOnHand = 100 
+6.Delete from Client_Master where the column state holds the value 'Tamil Nadu' 
+7.Add a column called 'Telephone' of data type 'Number' and size = '10' to the Client_Master Table 
+8.Change the size of Sell_Price column in Product_Master to '10.2' 
+9.Destroy the table Client_Master along with its data 
+10.Change the name of the table Salesman_Master table to SMAN_MAST1 
