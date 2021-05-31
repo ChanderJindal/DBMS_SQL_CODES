@@ -1,0 +1,16 @@
+Queries
+1. List the names of all clients having 'a' as the second letter in their names 
+2. List the client who stay in the city whose first letter is 'M' 
+3. List all clients who stay in 'Banglore' or 'Manglore' 
+4. List all the clients whose bal_due = 10,000 
+5. List all the information frome sales_order for orders placed in the month of June. 
+6. List the order information for the client number 'CO0001' and 'C00002' 
+7. List the products who selling price is greater than 500 and less than or equal to 750 
+8. List products who's sp is more than 500. Calculate a new SP as orignal sp*0.15. 
+9. Rename the new column in the output of above query as new_price. 
+10. List the name city of clients who are not in the state of 'Maharashtra' 
+11. Count the total number of orders. 
+12. Calculate the average price of all the products. 
+13. Determine the maximum and minimum product prices. Rename the output as max_price and min_price respectively 
+14. Count the number of products having price less than or equal to 500 
+15. List the products whose qtyonhand is less than 3 order level.
