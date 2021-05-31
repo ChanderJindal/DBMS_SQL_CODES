@@ -1,10 +1,16 @@
 
 select * from client_master where name like '_a%';
+
 select * from client_master where city like 'm%';
+
 select * from client_master where city = 'Banglore' or city = 'Manglore';
+
 select * from client_master where bal_due = 10000; // select * from client_master where bal_due >= 10000;
+
 select * from sales_order where order_date like '____-06-%';
+
 select * from sales_order where client_no = 'C00001' or client_no = 'C00002';
+
 select * from product_master where sellprice > 500 and sellprice <= 750;
 
 DROP table if exists PRODUCT_VIEW;
@@ -13,8 +19,8 @@ select * from product_master
 where 
 product_master.sellprice > 500
 );
-update product_view set sellprice = 0.15*sellprice;
 
+update product_view set sellprice = 0.15*sellprice;
 select * from product_view;
 
 alter table PRODUCT_VIEW
@@ -42,4 +48,4 @@ select min(sellprice) as min_sellprice from product_master;
 select count(costprice) as below_500_costprice from product_master where costprice <= 500;
 select count(sellprice) as below_500_sellprice from product_master where sellprice <= 500;
 
-select * from product_master where QTY_ON_HAND < 150;
+select * from product_master where QTY_ON_HAND < 3* REORDER_LVL;
