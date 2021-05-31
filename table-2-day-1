@@ -1,0 +1,45 @@
+
+select * from client_master where name like '_a%';
+select * from client_master where city like 'm%';
+select * from client_master where city = 'Banglore' or city = 'Manglore';
+select * from client_master where bal_due = 10000; // select * from client_master where bal_due >= 10000;
+select * from sales_order where order_date like '____-06-%';
+select * from sales_order where client_no = 'C00001' or client_no = 'C00002';
+select * from product_master where sellprice > 500 and sellprice <= 750;
+
+DROP table if exists PRODUCT_VIEW;
+Create TABLE PRODUCT_VIEW(
+select * from product_master
+where 
+product_master.sellprice > 500
+);
+update product_view set sellprice = 0.15*sellprice;
+
+select * from product_view;
+
+alter table PRODUCT_VIEW
+change column sellprice new_price float(10,2);
+
+select city from client_master where state != 'Maharashtra';
+
+select unique count(order_no) as total_orders from sales_order;
+
+select avg(costprice) as Average_costprice from product_master;
+select avg(sellprice) as Average_sellprice from product_master;
+
+select min(costprice) as min_costprice from product_master;
+select min(sellprice) as min_sellprice from product_master;
+
+select max(costprice) as max_costprice from product_master;
+select max(sellprice) as max_sellprice from product_master;
+
+select avg(costprice) as Average_costprice from product_master;
+select avg(sellprice) as Average_sellprice from product_master;
+
+select min(costprice) as min_costprice from product_master;
+select min(sellprice) as min_sellprice from product_master;
+
+select count(costprice) as below_500_costprice from product_master where costprice <= 500;
+select count(sellprice) as below_500_sellprice from product_master where sellprice <= 500;
+
+select * from product_master where QTY_ON_HAND < 150;
