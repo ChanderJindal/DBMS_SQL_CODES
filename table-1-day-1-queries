@@ -1,0 +1,11 @@
+Queries
+1. Find out the names of all the clients 
+2. Retrieve the entire contents of the client_master table 
+3. Retrieve the list of names, cities and the states of all the clients 
+4. Find names of clients from client master whose bal_due is 0 
+5. List all the clients who are located in Mumbai 
+6. List the various products available from the product master table 
+7. Find the names of salesmen who have a salary equal to rupees 3000 
+8. List all saleman_no who live in city Mumbai 
+9. Find product_no whose price is equal to 150 rupees 
+10. Find product_no oft shirts in product_master table 
