@@ -1,0 +1,10 @@
+Alter Table sales_order 
+add column PRODUCT_NO VARCHAR(6),
+add column Ammount int;
+
+update sales_order set PRODUCT_NO = 'P00001' , Ammount = 34 WHERE ORDER_NO = 'O19001';
+update sales_order set PRODUCT_NO = 'P0345' , Ammount = 6 WHERE ORDER_NO = 'O19003';
+update sales_order set PRODUCT_NO = 'P07834' , Ammount = 3 WHERE ORDER_NO = 'O19002';
+update sales_order set PRODUCT_NO = 'P07965' , Ammount = 3 WHERE ORDER_NO = 'O19008';
+update sales_order set PRODUCT_NO = 'P07885' , Ammount = 5 WHERE ORDER_NO = 'O46865';
+update sales_order set PRODUCT_NO = 'P07975' , Ammount = 6 WHERE ORDER_NO = 'O46866';
